@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Dell.POC.UnitofWork/1.0.0": {
+        "runtime": {
+          "Dell.POC.UnitofWork.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dell.POC.UnitofWork/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "apXLE1e4oK5SiRZoNNzhIJ+Hth3XtDTzDbY6XGMjPfvTLVyhJu4qkpBjbiZmByP8zrLN0tsKOtJh6N2UATxTrA==",
+  "success": true,
+  "projectFilePath": "C:\\Dell\\Dell.POC\\Dell.POC.Models\\Dell.POC.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sravan\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

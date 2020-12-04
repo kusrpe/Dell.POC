@@ -1,0 +1,8 @@
+C:\Dell\Dell.POC\Dell.POC.Business\bin\Debug\netcoreapp3.1\Dell.POC.Business.deps.json
+C:\Dell\Dell.POC\Dell.POC.Business\bin\Debug\netcoreapp3.1\Dell.POC.Business.dll
+C:\Dell\Dell.POC\Dell.POC.Business\bin\Debug\netcoreapp3.1\Dell.POC.Business.pdb
+C:\Dell\Dell.POC\Dell.POC.Business\obj\Debug\netcoreapp3.1\Dell.POC.Business.AssemblyInfoInputs.cache
+C:\Dell\Dell.POC\Dell.POC.Business\obj\Debug\netcoreapp3.1\Dell.POC.Business.AssemblyInfo.cs
+C:\Dell\Dell.POC\Dell.POC.Business\obj\Debug\netcoreapp3.1\Dell.POC.Business.csproj.CoreCompileInputs.cache
+C:\Dell\Dell.POC\Dell.POC.Business\obj\Debug\netcoreapp3.1\Dell.POC.Business.dll
+C:\Dell\Dell.POC\Dell.POC.Business\obj\Debug\netcoreapp3.1\Dell.POC.Business.pdb

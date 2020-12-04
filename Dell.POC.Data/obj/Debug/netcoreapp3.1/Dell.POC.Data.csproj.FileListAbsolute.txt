@@ -1,0 +1,9 @@
+C:\Dell\Dell.POC\Dell.POC.Data\bin\Debug\netcoreapp3.1\Dell.POC.Data.deps.json
+C:\Dell\Dell.POC\Dell.POC.Data\bin\Debug\netcoreapp3.1\Dell.POC.Data.dll
+C:\Dell\Dell.POC\Dell.POC.Data\bin\Debug\netcoreapp3.1\Dell.POC.Data.pdb
+C:\Dell\Dell.POC\Dell.POC.Data\obj\Debug\netcoreapp3.1\Dell.POC.Data.csprojAssemblyReference.cache
+C:\Dell\Dell.POC\Dell.POC.Data\obj\Debug\netcoreapp3.1\Dell.POC.Data.AssemblyInfoInputs.cache
+C:\Dell\Dell.POC\Dell.POC.Data\obj\Debug\netcoreapp3.1\Dell.POC.Data.AssemblyInfo.cs
+C:\Dell\Dell.POC\Dell.POC.Data\obj\Debug\netcoreapp3.1\Dell.POC.Data.csproj.CoreCompileInputs.cache
+C:\Dell\Dell.POC\Dell.POC.Data\obj\Debug\netcoreapp3.1\Dell.POC.Data.dll
+C:\Dell\Dell.POC\Dell.POC.Data\obj\Debug\netcoreapp3.1\Dell.POC.Data.pdb

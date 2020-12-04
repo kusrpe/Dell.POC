@@ -1,0 +1,9 @@
+C:\Dell\Dell.POC\Dell.POC.ConnectionString\bin\Debug\netcoreapp3.1\Dell.POC.ConfigurationSettings.deps.json
+C:\Dell\Dell.POC\Dell.POC.ConnectionString\bin\Debug\netcoreapp3.1\Dell.POC.ConfigurationSettings.dll
+C:\Dell\Dell.POC\Dell.POC.ConnectionString\bin\Debug\netcoreapp3.1\Dell.POC.ConfigurationSettings.pdb
+C:\Dell\Dell.POC\Dell.POC.ConnectionString\obj\Debug\netcoreapp3.1\Dell.POC.ConfigurationSettings.csprojAssemblyReference.cache
+C:\Dell\Dell.POC\Dell.POC.ConnectionString\obj\Debug\netcoreapp3.1\Dell.POC.ConfigurationSettings.AssemblyInfoInputs.cache
+C:\Dell\Dell.POC\Dell.POC.ConnectionString\obj\Debug\netcoreapp3.1\Dell.POC.ConfigurationSettings.AssemblyInfo.cs
+C:\Dell\Dell.POC\Dell.POC.ConnectionString\obj\Debug\netcoreapp3.1\Dell.POC.ConfigurationSettings.csproj.CoreCompileInputs.cache
+C:\Dell\Dell.POC\Dell.POC.ConnectionString\obj\Debug\netcoreapp3.1\Dell.POC.ConfigurationSettings.dll
+C:\Dell\Dell.POC\Dell.POC.ConnectionString\obj\Debug\netcoreapp3.1\Dell.POC.ConfigurationSettings.pdb

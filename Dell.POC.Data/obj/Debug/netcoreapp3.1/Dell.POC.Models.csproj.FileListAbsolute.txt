@@ -1,0 +1,4 @@
+C:\Dell\Dell.POC\Dell.POC.Data\bin\Debug\netcoreapp3.1\Dell.POC.Models.deps.json
+C:\Dell\Dell.POC\Dell.POC.Data\bin\Debug\netcoreapp3.1\Dell.POC.Models.dll
+C:\Dell\Dell.POC\Dell.POC.Data\obj\Debug\netcoreapp3.1\Dell.POC.Models.AssemblyInfoInputs.cache
+C:\Dell\Dell.POC\Dell.POC.Data\obj\Debug\netcoreapp3.1\Dell.POC.Models.AssemblyInfo.cs

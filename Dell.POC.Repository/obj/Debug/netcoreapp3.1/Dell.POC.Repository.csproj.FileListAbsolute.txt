@@ -1,0 +1,14 @@
+C:\Dell\Dell.POC\Dell.POC.Repository\bin\Debug\netcoreapp3.1\Dell.POC.Repository.deps.json
+C:\Dell\Dell.POC\Dell.POC.Repository\bin\Debug\netcoreapp3.1\Dell.POC.Repository.dll
+C:\Dell\Dell.POC\Dell.POC.Repository\bin\Debug\netcoreapp3.1\Dell.POC.Repository.pdb
+C:\Dell\Dell.POC\Dell.POC.Repository\obj\Debug\netcoreapp3.1\Dell.POC.Repository.AssemblyInfoInputs.cache
+C:\Dell\Dell.POC\Dell.POC.Repository\obj\Debug\netcoreapp3.1\Dell.POC.Repository.AssemblyInfo.cs
+C:\Dell\Dell.POC\Dell.POC.Repository\obj\Debug\netcoreapp3.1\Dell.POC.Repository.dll
+C:\Dell\Dell.POC\Dell.POC.Repository\obj\Debug\netcoreapp3.1\Dell.POC.Repository.pdb
+C:\Dell\Dell.POC\Dell.POC.Repository\obj\Debug\netcoreapp3.1\Dell.POC.Repository.csprojAssemblyReference.cache
+C:\Dell\Dell.POC\Dell.POC.Repository\bin\Debug\netcoreapp3.1\Dell.POC.Models.dll
+C:\Dell\Dell.POC\Dell.POC.Repository\bin\Debug\netcoreapp3.1\Dell.POC.Models.pdb
+C:\Dell\Dell.POC\Dell.POC.Repository\obj\Debug\netcoreapp3.1\Dell.POC.Repository.csproj.CopyComplete
+C:\Dell\Dell.POC\Dell.POC.Repository\obj\Debug\netcoreapp3.1\Dell.POC.Repository.csproj.CoreCompileInputs.cache
+C:\Dell\Dell.POC\Dell.POC.Repository\bin\Debug\netcoreapp3.1\Dell.POC.ConfigurationSettings.dll
+C:\Dell\Dell.POC\Dell.POC.Repository\bin\Debug\netcoreapp3.1\Dell.POC.ConfigurationSettings.pdb

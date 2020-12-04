@@ -1,0 +1,9 @@
+C:\Dell\Dell.POC\Dell.POC.ViewModels\bin\Debug\netcoreapp3.1\Dell.POC.ViewModels.deps.json
+C:\Dell\Dell.POC\Dell.POC.ViewModels\bin\Debug\netcoreapp3.1\Dell.POC.ViewModels.dll
+C:\Dell\Dell.POC\Dell.POC.ViewModels\bin\Debug\netcoreapp3.1\Dell.POC.ViewModels.pdb
+C:\Dell\Dell.POC\Dell.POC.ViewModels\obj\Debug\netcoreapp3.1\Dell.POC.ViewModels.csprojAssemblyReference.cache
+C:\Dell\Dell.POC\Dell.POC.ViewModels\obj\Debug\netcoreapp3.1\Dell.POC.ViewModels.AssemblyInfoInputs.cache
+C:\Dell\Dell.POC\Dell.POC.ViewModels\obj\Debug\netcoreapp3.1\Dell.POC.ViewModels.AssemblyInfo.cs
+C:\Dell\Dell.POC\Dell.POC.ViewModels\obj\Debug\netcoreapp3.1\Dell.POC.ViewModels.csproj.CoreCompileInputs.cache
+C:\Dell\Dell.POC\Dell.POC.ViewModels\obj\Debug\netcoreapp3.1\Dell.POC.ViewModels.dll
+C:\Dell\Dell.POC\Dell.POC.ViewModels\obj\Debug\netcoreapp3.1\Dell.POC.ViewModels.pdb
