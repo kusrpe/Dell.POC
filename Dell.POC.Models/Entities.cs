@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Dell.POC.Models
 {
-    // Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse); 
+ 
     public class IA
     {
         public int Attribute_Item_Id { get; set; }
