@@ -14,6 +14,15 @@
           "lib/netstandard2.0/Dapper.dll": {}
         }
       },
+      "Json.Net/1.0.23": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Json.Net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Json.Net.dll": {}
+        }
+      },
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
         "type": "package",
         "build": {
@@ -337,6 +346,18 @@
         "lib/net5.0/Dapper.xml",
         "lib/netstandard2.0/Dapper.dll",
         "lib/netstandard2.0/Dapper.xml"
+      ]
+    },
+    "Json.Net/1.0.23": {
+      "sha512": "gokTwC3OVatrIFwQBaooj6EV3+08ryFIqdfR6RP4K61x5uSschPmKHl5XppvgdD/lmfY9IYZIoBt8V5Y0SU0nQ==",
+      "type": "package",
+      "path": "json.net/1.0.23",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "json.net.1.0.23.nupkg.sha512",
+        "json.net.nuspec",
+        "lib/netstandard2.0/Json.Net.dll"
       ]
     },
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
@@ -922,6 +943,8 @@
       "Dell.POC.ConfigurationSettings >= 1.0.0",
       "Dell.POC.Repository >= 1.0.0",
       "Dell.POC.Services >= 1.0.0",
+      "Json.Net >= 1.0.23",
+      "Newtonsoft.Json >= 12.0.3",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
@@ -932,11 +955,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dell\\Dell.POC\\Dell.POC.Api\\Dell.POC.Api.csproj",
+      "projectUniqueName": "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.Api\\Dell.POC.Api.csproj",
       "projectName": "Dell.POC.Api",
-      "projectPath": "C:\\Dell\\Dell.POC\\Dell.POC.Api\\Dell.POC.Api.csproj",
+      "projectPath": "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.Api\\Dell.POC.Api.csproj",
       "packagesPath": "C:\\Users\\Sravan\\.nuget\\packages\\",
-      "outputPath": "C:\\Dell\\Dell.POC\\Dell.POC.Api\\obj\\",
+      "outputPath": "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -956,17 +979,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Dell\\Dell.POC\\Dell.POC.Business\\Dell.POC.Services.csproj": {
-              "projectPath": "C:\\Dell\\Dell.POC\\Dell.POC.Business\\Dell.POC.Services.csproj"
+            "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.Business\\Dell.POC.Services.csproj": {
+              "projectPath": "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.Business\\Dell.POC.Services.csproj"
             },
-            "C:\\Dell\\Dell.POC\\Dell.POC.Common\\Dell.POC.Common.csproj": {
-              "projectPath": "C:\\Dell\\Dell.POC\\Dell.POC.Common\\Dell.POC.Common.csproj"
+            "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.Common\\Dell.POC.Common.csproj": {
+              "projectPath": "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.Common\\Dell.POC.Common.csproj"
             },
-            "C:\\Dell\\Dell.POC\\Dell.POC.ConnectionString\\Dell.POC.ConfigurationSettings.csproj": {
-              "projectPath": "C:\\Dell\\Dell.POC\\Dell.POC.ConnectionString\\Dell.POC.ConfigurationSettings.csproj"
+            "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.ConnectionString\\Dell.POC.ConfigurationSettings.csproj": {
+              "projectPath": "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.ConnectionString\\Dell.POC.ConfigurationSettings.csproj"
             },
-            "C:\\Dell\\Dell.POC\\Dell.POC.Repository\\Dell.POC.Repository.csproj": {
-              "projectPath": "C:\\Dell\\Dell.POC\\Dell.POC.Repository\\Dell.POC.Repository.csproj"
+            "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.Repository\\Dell.POC.Repository.csproj": {
+              "projectPath": "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.Repository\\Dell.POC.Repository.csproj"
             }
           }
         }
@@ -980,6 +1003,14 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
+          "Json.Net": {
+            "target": "Package",
+            "version": "[1.0.23, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[12.0.3, )"
+          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[5.6.3, )"

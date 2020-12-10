@@ -7,10 +7,14 @@ using Microsoft.Extensions.Logging;
 using Dell.POC.Repository;
 using Dell.POC.Services;
 using Dell.POC.Models;
+using Json;
+using Newtonsoft;
+using Newtonsoft.Json;
+using Dell.POC.Models;
 namespace Dell.POC.Api.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("[Controller]")]
     public class EntityController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
@@ -19,36 +23,34 @@ namespace Dell.POC.Api.Controllers
         };
 
         private readonly ILogger<EntityController> _logger;
-        private readonly  IEntitiyService<Entity> _entityServices;
-        public EntityController(IEntitiyService<Entity> entityServices)
+        private readonly IEntitiyService _entityServices;
+        public EntityController(IEntitiyService entityServices)
         {
             _entityServices = entityServices;
         }
 
-        //[HttpGet]
-        //public async Task< IEnumerable<Entity>> Get()
-        //{
-        //    //await _itemServices.InsertAsync(new Item()
-        //    //{
-        //    //    ItemName="SRavan",
-        //    //    ItemDescription = "desc"
-        //    //});
 
-        //    IEnumerable<Entity> output = await _entityServices.GetAllAsync();
-        //    return output;
-        //}
 
-        [HttpGet]
-        public  IEnumerable<Entity> Get()
+        [HttpGet("GetAllEntities")]
+        public ActionResult<Root> GetAllEntities()
         {
-            //await _itemServices.InsertAsync(new Item()
-            //{
-            //    ItemName="SRavan",
-            //    ItemDescription = "desc"
-            //});
+            string output = _entityServices.GetAllAsync();
 
-           var output =  _entityServices.GetAll();
+            var result = output.TrimStart('[').TrimEnd(']');
+            Root dna = new Root();
+            dna = JsonConvert.DeserializeObject<Root>(result);
+
+
+            return dna;
+        }
+
+        [HttpGet("InsertEntity")]
+        public Task<ResultVM> InsertEntity(string EntityName, string EntityDesc)
+        {
+            ResultVM result;
+            var output = _entityServices.Insert(EntityName, EntityDesc);
             return output;
+            
         }
     }
 }

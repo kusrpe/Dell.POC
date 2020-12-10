@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
-
+using Dell.POC.Models;
 namespace Dell.POC.Repository.Interfaces
 
 {
@@ -11,15 +11,15 @@ namespace Dell.POC.Repository.Interfaces
     /// Base repository to manage generic operations.
     /// </summary>
     /// <typeparam name="T">Any class type.</typeparam>
-    public interface IGenericRepository<T>
+    public interface IGenericRepository
     {
-        Task<IEnumerable<T>> GetAllAsync();
-        Task DeleteRowAsync(Guid id);
-        Task<T> GetAsync(Guid id);
-        Task<int> SaveRangeAsync(IEnumerable<T> list);
-        Task UpdateAsync(T t);
-        Task InsertAsync(T t);
-        IEnumerable<T> GetAll();
+        string GetAllAsync(string query);
+        Task DeleteRowAsync(string query);
+        string GetAsync(string query);
+        
+        Task UpdateAsync(string query);
+        Task InsertAsync(string query);
+      
 
     }
 }

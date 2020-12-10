@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dell\\Dell.POC\\Dell.POC.Repository\\Dell.POC.Repository.csproj": {}
+    "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.Repository\\Dell.POC.Repository.csproj": {}
   },
   "projects": {
-    "C:\\Dell\\Dell.POC\\Dell.POC.ConnectionString\\Dell.POC.ConfigurationSettings.csproj": {
+    "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.ConnectionString\\Dell.POC.ConfigurationSettings.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dell\\Dell.POC\\Dell.POC.ConnectionString\\Dell.POC.ConfigurationSettings.csproj",
+        "projectUniqueName": "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.ConnectionString\\Dell.POC.ConfigurationSettings.csproj",
         "projectName": "Dell.POC.ConfigurationSettings",
-        "projectPath": "C:\\Dell\\Dell.POC\\Dell.POC.ConnectionString\\Dell.POC.ConfigurationSettings.csproj",
+        "projectPath": "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.ConnectionString\\Dell.POC.ConfigurationSettings.csproj",
         "packagesPath": "C:\\Users\\Sravan\\.nuget\\packages\\",
-        "outputPath": "C:\\Dell\\Dell.POC\\Dell.POC.ConnectionString\\obj\\",
+        "outputPath": "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.ConnectionString\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -60,14 +60,14 @@
         }
       }
     },
-    "C:\\Dell\\Dell.POC\\Dell.POC.Models\\Dell.POC.Models.csproj": {
+    "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.Models\\Dell.POC.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dell\\Dell.POC\\Dell.POC.Models\\Dell.POC.Models.csproj",
+        "projectUniqueName": "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.Models\\Dell.POC.Models.csproj",
         "projectName": "Dell.POC.Models",
-        "projectPath": "C:\\Dell\\Dell.POC\\Dell.POC.Models\\Dell.POC.Models.csproj",
+        "projectPath": "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.Models\\Dell.POC.Models.csproj",
         "packagesPath": "C:\\Users\\Sravan\\.nuget\\packages\\",
-        "outputPath": "C:\\Dell\\Dell.POC\\Dell.POC.Models\\obj\\",
+        "outputPath": "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -122,14 +122,14 @@
         }
       }
     },
-    "C:\\Dell\\Dell.POC\\Dell.POC.Repository\\Dell.POC.Repository.csproj": {
+    "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.Repository\\Dell.POC.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dell\\Dell.POC\\Dell.POC.Repository\\Dell.POC.Repository.csproj",
+        "projectUniqueName": "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.Repository\\Dell.POC.Repository.csproj",
         "projectName": "Dell.POC.Repository",
-        "projectPath": "C:\\Dell\\Dell.POC\\Dell.POC.Repository\\Dell.POC.Repository.csproj",
+        "projectPath": "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.Repository\\Dell.POC.Repository.csproj",
         "packagesPath": "C:\\Users\\Sravan\\.nuget\\packages\\",
-        "outputPath": "C:\\Dell\\Dell.POC\\Dell.POC.Repository\\obj\\",
+        "outputPath": "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -149,11 +149,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Dell\\Dell.POC\\Dell.POC.ConnectionString\\Dell.POC.ConfigurationSettings.csproj": {
-                "projectPath": "C:\\Dell\\Dell.POC\\Dell.POC.ConnectionString\\Dell.POC.ConfigurationSettings.csproj"
+              "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.ConnectionString\\Dell.POC.ConfigurationSettings.csproj": {
+                "projectPath": "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.ConnectionString\\Dell.POC.ConfigurationSettings.csproj"
               },
-              "C:\\Dell\\Dell.POC\\Dell.POC.Models\\Dell.POC.Models.csproj": {
-                "projectPath": "C:\\Dell\\Dell.POC\\Dell.POC.Models\\Dell.POC.Models.csproj"
+              "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.Models\\Dell.POC.Models.csproj": {
+                "projectPath": "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.Models\\Dell.POC.Models.csproj"
               }
             }
           }

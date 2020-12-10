@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace Dell.POC.Services
 {
-    public interface  IEntitiyService<T>
+    public interface  IEntitiyService
     {
-        Task<IEnumerable<T>> GetAllAsync();
-        Task InsertAsync(T entity);
+        string GetAllAsync();
 
-        IEnumerable<T> GetAll();
+        Task<ResultVM> Insert(string entityName,string entityDesc);
+       
     }
 }

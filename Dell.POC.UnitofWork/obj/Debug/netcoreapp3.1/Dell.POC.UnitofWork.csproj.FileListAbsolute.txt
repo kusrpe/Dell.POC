@@ -7,3 +7,12 @@ C:\Dell\Dell.POC\Dell.POC.UnitofWork\obj\Debug\netcoreapp3.1\Dell.POC.UnitofWork
 C:\Dell\Dell.POC\Dell.POC.UnitofWork\obj\Debug\netcoreapp3.1\Dell.POC.UnitofWork.dll
 C:\Dell\Dell.POC\Dell.POC.UnitofWork\obj\Debug\netcoreapp3.1\Dell.POC.UnitofWork.pdb
 C:\Dell\Dell.POC\Dell.POC.UnitofWork\obj\Debug\netcoreapp3.1\Dell.POC.UnitofWork.csprojAssemblyReference.cache
+C:\Dell.POCLatest\Dell.POC\Dell.POC.UnitofWork\bin\Debug\netcoreapp3.1\Dell.POC.UnitofWork.deps.json
+C:\Dell.POCLatest\Dell.POC\Dell.POC.UnitofWork\bin\Debug\netcoreapp3.1\Dell.POC.UnitofWork.dll
+C:\Dell.POCLatest\Dell.POC\Dell.POC.UnitofWork\bin\Debug\netcoreapp3.1\Dell.POC.UnitofWork.pdb
+C:\Dell.POCLatest\Dell.POC\Dell.POC.UnitofWork\obj\Debug\netcoreapp3.1\Dell.POC.UnitofWork.csprojAssemblyReference.cache
+C:\Dell.POCLatest\Dell.POC\Dell.POC.UnitofWork\obj\Debug\netcoreapp3.1\Dell.POC.UnitofWork.AssemblyInfoInputs.cache
+C:\Dell.POCLatest\Dell.POC\Dell.POC.UnitofWork\obj\Debug\netcoreapp3.1\Dell.POC.UnitofWork.AssemblyInfo.cs
+C:\Dell.POCLatest\Dell.POC\Dell.POC.UnitofWork\obj\Debug\netcoreapp3.1\Dell.POC.UnitofWork.csproj.CoreCompileInputs.cache
+C:\Dell.POCLatest\Dell.POC\Dell.POC.UnitofWork\obj\Debug\netcoreapp3.1\Dell.POC.UnitofWork.dll
+C:\Dell.POCLatest\Dell.POC\Dell.POC.UnitofWork\obj\Debug\netcoreapp3.1\Dell.POC.UnitofWork.pdb

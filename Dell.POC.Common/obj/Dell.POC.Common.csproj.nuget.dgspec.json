@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dell\\Dell.POC\\Dell.POC.Common\\Dell.POC.Common.csproj": {}
+    "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.Common\\Dell.POC.Common.csproj": {}
   },
   "projects": {
-    "C:\\Dell\\Dell.POC\\Dell.POC.Common\\Dell.POC.Common.csproj": {
+    "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.Common\\Dell.POC.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dell\\Dell.POC\\Dell.POC.Common\\Dell.POC.Common.csproj",
+        "projectUniqueName": "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.Common\\Dell.POC.Common.csproj",
         "projectName": "Dell.POC.Common",
-        "projectPath": "C:\\Dell\\Dell.POC\\Dell.POC.Common\\Dell.POC.Common.csproj",
+        "projectPath": "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.Common\\Dell.POC.Common.csproj",
         "packagesPath": "C:\\Users\\Sravan\\.nuget\\packages\\",
-        "outputPath": "C:\\Dell\\Dell.POC\\Dell.POC.Common\\obj\\",
+        "outputPath": "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

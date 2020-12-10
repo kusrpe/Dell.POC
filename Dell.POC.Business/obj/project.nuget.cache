@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1JHENgXUYg0jogs2jGtJqxp10BR6vD7rpBgCE8dWXXcvBaxxPRDJFof0LjZm7nyu0R/+a+vY49p11DUCu1r3VA==",
+  "dgSpecHash": "vfeu+PoFfBSP52sokPOtgRN09nzs0rcSJ4RhLW9mz/9xqrQS8kk2/CIF/lv9FQk3nsVc23BnelmIJggcNezuVw==",
   "success": true,
-  "projectFilePath": "C:\\Dell\\Dell.POC\\Dell.POC.Business\\Dell.POC.Services.csproj",
+  "projectFilePath": "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.Business\\Dell.POC.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sravan\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
     "C:\\Users\\Sravan\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",

@@ -7,33 +7,56 @@ using Dell.POC.Repository.Interfaces;
 using Dell.POC.Repository.Impl;
 namespace Dell.POC.Services
 {
-    public class EntityService<T> : IEntitiyService<Entity>
+    public class EntityService : IEntitiyService
     {
-        private readonly IEntityRepository<Entity> _entityRepository;
+        private readonly IEntityRepository _entityRepository;
         
         public EntityService(
-           IEntityRepository<Entity> entityRepository
+           IEntityRepository entityRepository
           )
         {
             _entityRepository = entityRepository;
             
         }
-        public Task<IEnumerable<Entity>> GetAllAsync()
+        public string GetAllAsync()
         {
-            Task<IEnumerable<Entity>> output = _entityRepository.GetAllAsync();
-            return output;
-        }
-        public Task InsertAsync(Entity entity)
-        {
-            return _entityRepository.InsertAsync(entity);
-        }
-        public IEnumerable<Entity> GetAll()
-        {
-
-            var output = _entityRepository.GetAll();
-            IEnumerable<Entity> retsult = output;
+           string  query = @"select *  from entity e
+                            inner join entity_attribute ea on e.entity_Id = ea.entity_Id
+                            inner join Entity_Item_Group eig on eig.Entity_Id = e.Entity_Id
+                            inner join Item_Group ig on ig.Item_Group_Id = eig.Item_Group_Id
+                            inner join Item_Group_Attribute IGA on IGA.Item_Group_Id = ig.Item_Group_Id
+                            inner join Item_Group_Item IGI on IGI.Item_group_Id = IGA.Item_group_Id
+                            inner join Item I on I.Item_Id = igi.Item_Group_Item_Id
+                            inner join Item_Attribute IA on IA.Item_Id = I.Item_Id
+							for json auto";
+            string output = _entityRepository.GetAllAsync(query);
             return output;
         }
 
+        public async Task<ResultVM> Insert(string entityName, string entityDesc)
+        {
+            
+            string query = string.Format(@"Insert into Entity select '{0}','{1}'", entityName, entityDesc);
+            Task output = _entityRepository.InsertAsync(query);
+            if ( output != null)
+            {
+                var resultVM = new ResultVM
+                {
+                    Message = "Entity Successfuly inserted",
+                };
+                return resultVM;
+               
+
+            }
+            else
+            {
+                var resultVM = new ResultVM
+                {
+                    Message = "Entity insertion failed"
+                };
+                return resultVM;
+            }
+           
+        }
     }
 }

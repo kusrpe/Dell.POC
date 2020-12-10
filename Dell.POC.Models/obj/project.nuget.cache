@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "apXLE1e4oK5SiRZoNNzhIJ+Hth3XtDTzDbY6XGMjPfvTLVyhJu4qkpBjbiZmByP8zrLN0tsKOtJh6N2UATxTrA==",
+  "dgSpecHash": "b705tawdxZv4rJLasp1AxI1fdVXvUDIpZnt8GKUw94lf5iafXIfO45/meFUiY/YDrKJ5D/Xj1lXh+CE0j/Ubfg==",
   "success": true,
-  "projectFilePath": "C:\\Dell\\Dell.POC\\Dell.POC.Models\\Dell.POC.Models.csproj",
+  "projectFilePath": "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.Models\\Dell.POC.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sravan\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],

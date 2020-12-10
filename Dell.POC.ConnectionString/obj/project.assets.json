@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dell\\Dell.POC\\Dell.POC.ConnectionString\\Dell.POC.ConfigurationSettings.csproj",
+      "projectUniqueName": "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.ConnectionString\\Dell.POC.ConfigurationSettings.csproj",
       "projectName": "Dell.POC.ConfigurationSettings",
-      "projectPath": "C:\\Dell\\Dell.POC\\Dell.POC.ConnectionString\\Dell.POC.ConfigurationSettings.csproj",
+      "projectPath": "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.ConnectionString\\Dell.POC.ConfigurationSettings.csproj",
       "packagesPath": "C:\\Users\\Sravan\\.nuget\\packages\\",
-      "outputPath": "C:\\Dell\\Dell.POC\\Dell.POC.ConnectionString\\obj\\",
+      "outputPath": "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.ConnectionString\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

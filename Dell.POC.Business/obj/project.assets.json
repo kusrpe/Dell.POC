@@ -714,11 +714,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dell\\Dell.POC\\Dell.POC.Business\\Dell.POC.Services.csproj",
+      "projectUniqueName": "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.Business\\Dell.POC.Services.csproj",
       "projectName": "Dell.POC.Services",
-      "projectPath": "C:\\Dell\\Dell.POC\\Dell.POC.Business\\Dell.POC.Services.csproj",
+      "projectPath": "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.Business\\Dell.POC.Services.csproj",
       "packagesPath": "C:\\Users\\Sravan\\.nuget\\packages\\",
-      "outputPath": "C:\\Dell\\Dell.POC\\Dell.POC.Business\\obj\\",
+      "outputPath": "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -738,8 +738,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Dell\\Dell.POC\\Dell.POC.Repository\\Dell.POC.Repository.csproj": {
-              "projectPath": "C:\\Dell\\Dell.POC\\Dell.POC.Repository\\Dell.POC.Repository.csproj"
+            "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.Repository\\Dell.POC.Repository.csproj": {
+              "projectPath": "C:\\Dell.POCLatest\\Dell.POC\\Dell.POC.Repository\\Dell.POC.Repository.csproj"
             }
           }
         }
