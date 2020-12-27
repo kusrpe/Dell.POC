@@ -79,13 +79,13 @@ namespace Dell.POC.Api
                 });
             });
             services.AddSingleton<IConfiguration>(Configuration);
-            services.AddScoped<IEntitiyService, EntityService>();
-           
-           
-          
-            
+
+
+
+
             services.AddScoped<IEntityRepository, EntityRepository>();
-           // services.AddScoped<IGenericRepository, GenericRepository>();
+          
+            services.AddScoped<IEntitiyService, EntityService>();
 
 
 

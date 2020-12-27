@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="SqlMapper" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Dell.POC.Repository\Dell.POC.Repository.csproj" />
   </ItemGroup>
 

@@ -25,9 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dell.POC.Common", "Dell.POC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dell.POC.Api", "Dell.POC.Api\Dell.POC.Api.csproj", "{9597E526-C119-40C1-903A-FF7F4BFB6C35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dell.POC.Models", "Dell.POC.Models\Dell.POC.Models.csproj", "{B3D26CB0-82BE-4FB0-8843-F7DB5CECDE58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dell.POC.Models", "Dell.POC.Models\Dell.POC.Models.csproj", "{B3D26CB0-82BE-4FB0-8843-F7DB5CECDE58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dell.POC.ConfigurationSettings", "Dell.POC.ConnectionString\Dell.POC.ConfigurationSettings.csproj", "{D4DA29FE-1E78-4E8A-98DE-202A8A158005}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dell.POC.ConfigurationSettings", "Dell.POC.ConnectionString\Dell.POC.ConfigurationSettings.csproj", "{D4DA29FE-1E78-4E8A-98DE-202A8A158005}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -5,12 +5,12 @@ using System.Collections.Generic;
 
 namespace Dell.POC.Models
 {
-    public partial class ItemGroupAttribute
+    public  class ItemGroupAttribute
     {
-        public int AttributeItemId { get; set; }
-        public int ItemGroupId { get; set; }
-        public string ItemGroupAttribute1 { get; set; }
+        public int ItemGroupAttributeId { get; set; }
+        public string ItemGroupAttributeValue { get; set; }
+        public string ItemGroupAttributeName { get; set; }
 
-        public virtual ItemGroup ItemGroup { get; set; }
+
     }
 }

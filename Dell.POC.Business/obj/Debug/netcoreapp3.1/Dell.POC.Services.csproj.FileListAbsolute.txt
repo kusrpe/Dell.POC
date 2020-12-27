@@ -17,7 +17,6 @@ C:\Dell\Dell.POC\Dell.POC.Business\obj\Debug\netcoreapp3.1\Dell.POC.Services.csp
 C:\Dell.POCLatest\Dell.POC\Dell.POC.Business\obj\Debug\netcoreapp3.1\Dell.POC.Services.csprojAssemblyReference.cache
 C:\Dell.POCLatest\Dell.POC\Dell.POC.Business\obj\Debug\netcoreapp3.1\Dell.POC.Services.AssemblyInfoInputs.cache
 C:\Dell.POCLatest\Dell.POC\Dell.POC.Business\obj\Debug\netcoreapp3.1\Dell.POC.Services.AssemblyInfo.cs
-C:\Dell.POCLatest\Dell.POC\Dell.POC.Business\obj\Debug\netcoreapp3.1\Dell.POC.Services.csproj.CoreCompileInputs.cache
 C:\Dell.POCLatest\Dell.POC\Dell.POC.Business\obj\Debug\netcoreapp3.1\Dell.POC.Services.dll
 C:\Dell.POCLatest\Dell.POC\Dell.POC.Business\obj\Debug\netcoreapp3.1\Dell.POC.Services.pdb
 C:\Dell.POCLatest\Dell.POC\Dell.POC.Business\bin\Debug\netcoreapp3.1\Dell.POC.Services.deps.json
@@ -30,3 +29,4 @@ C:\Dell.POCLatest\Dell.POC\Dell.POC.Business\bin\Debug\netcoreapp3.1\Dell.POC.Re
 C:\Dell.POCLatest\Dell.POC\Dell.POC.Business\bin\Debug\netcoreapp3.1\Dell.POC.ConfigurationSettings.pdb
 C:\Dell.POCLatest\Dell.POC\Dell.POC.Business\bin\Debug\netcoreapp3.1\Dell.POC.Models.pdb
 C:\Dell.POCLatest\Dell.POC\Dell.POC.Business\obj\Debug\netcoreapp3.1\Dell.POC.Services.csproj.CopyComplete
+C:\Dell.POCLatest\Dell.POC\Dell.POC.Business\obj\Debug\netcoreapp3.1\Dell.POC.Services.csproj.CoreCompileInputs.cache

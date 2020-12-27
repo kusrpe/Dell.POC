@@ -17,12 +17,6 @@ namespace Dell.POC.Api.Controllers
     [Route("[Controller]")]
     public class EntityController : ControllerBase
     {
-        private static readonly string[] Summaries = new[]
-        {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-        };
-
-        private readonly ILogger<EntityController> _logger;
         private readonly IEntitiyService _entityServices;
         public EntityController(IEntitiyService entityServices)
         {
@@ -31,26 +25,21 @@ namespace Dell.POC.Api.Controllers
 
 
 
-        [HttpGet("GetAllEntities")]
-        public ActionResult<Root> GetAllEntities()
+        [HttpGet("getAllEntities")]
+        public async Task<IEnumerable<Entity>> getAllEntities()
         {
-            string output = _entityServices.GetAllAsync();
+            var output = await _entityServices.GetAllAsync();
+            return output;
 
-            var result = output.TrimStart('[').TrimEnd(']');
-            Root dna = new Root();
-            dna = JsonConvert.DeserializeObject<Root>(result);
-
-
-            return dna;
         }
 
-        [HttpGet("InsertEntity")]
-        public Task<ResultVM> InsertEntity(string EntityName, string EntityDesc)
+        [HttpPost("insertEntity")]
+        public Task<ResultVM> insertEntity(string EntityName,  string EntityDesc)
         {
-            ResultVM result;
+
             var output = _entityServices.Insert(EntityName, EntityDesc);
             return output;
-            
+
         }
     }
 }

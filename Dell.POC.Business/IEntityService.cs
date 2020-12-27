@@ -9,9 +9,11 @@ namespace Dell.POC.Services
 {
     public interface  IEntitiyService
     {
-        string GetAllAsync();
+        Task<IEnumerable<Entity>> GetAllAsync();
 
         Task<ResultVM> Insert(string entityName,string entityDesc);
-       
+
+        Task<ResultVM> Update(int EntityId, string entityName, string entityDesc);
+
     }
 }

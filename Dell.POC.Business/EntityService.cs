@@ -5,58 +5,95 @@ using System.Text;
 using System.Threading.Tasks;
 using Dell.POC.Repository.Interfaces;
 using Dell.POC.Repository.Impl;
+using SqlMapper;
+using System.Linq;
 namespace Dell.POC.Services
 {
     public class EntityService : IEntitiyService
     {
-        private readonly IEntityRepository _entityRepository;
-        
+
+        private readonly IEntityRepository entityRepository;
         public EntityService(
            IEntityRepository entityRepository
           )
         {
-            _entityRepository = entityRepository;
-            
+            this.entityRepository = entityRepository;
+
         }
-        public string GetAllAsync()
+        public async Task<IEnumerable<Entity>> GetAllAsync()
         {
-           string  query = @"select *  from entity e
-                            inner join entity_attribute ea on e.entity_Id = ea.entity_Id
-                            inner join Entity_Item_Group eig on eig.Entity_Id = e.Entity_Id
-                            inner join Item_Group ig on ig.Item_Group_Id = eig.Item_Group_Id
-                            inner join Item_Group_Attribute IGA on IGA.Item_Group_Id = ig.Item_Group_Id
-                            inner join Item_Group_Item IGI on IGI.Item_group_Id = IGA.Item_group_Id
-                            inner join Item I on I.Item_Id = igi.Item_Group_Item_Id
-                            inner join Item_Attribute IA on IA.Item_Id = I.Item_Id
-							for json auto";
-            string output = _entityRepository.GetAllAsync(query);
-            return output;
+            string query = @"
+                          SELECT E.ENTITY_ID AS 'ENTITYID', ENTITY_NAME  AS 'ENTITYNAME',
+                            EA.ENTITY_ATTRIBUTE_ID AS 'ENTITYATTRIBUTEID', EA.ATTRIBUTE_NAME AS 'ATTRIBUTENAME',
+                            EA.ATTRIBUTE_VALUE  AS 'ATTRIBUTEVALUE',
+                            IG.ITEM_GROUP_ID AS 'ITEMGROUPID',
+                            IG.ITEM_GROUP_DESCRIPTION AS 'ITEMGROUPDESCRIPTION',
+                            IG.ITEM_GROUP_NAME AS 'ITEMGROUPNAME'
+							,I.ITEM_ID AS 'ITEMID',
+							I.ITEM_NAME AS 'ITEMNAME',
+							I.ITEM_DESCRIPTION AS 'ITEMDESCRIPTION'
+							,IGA.ATTRIBUTE_ITEM_ID	AS 'ITEMGROUPATTRIBUTEID' ,
+							IGA.ITEM_GROUP_ATTRIBUTE AS 'ITEMGROUPATTRIBUTEVALUE',
+							IGA.ITEM_GROUP_ATTRIBUTE_NAME AS 'ITEMGROUPATTRIBUTENAME'
+                             FROM ENTITY E
+                            INNER JOIN ENTITY_ATTRIBUTE EA ON EA.ENTITY_ID = E.ENTITY_ID
+                            INNER JOIN ENTITY_ITEM_GROUP EIG ON EIG.ENTITY_ID = E.ENTITY_ID
+                            INNER JOIN ITEM_GROUP IG ON IG.ITEM_GROUP_ID = EIG.ITEM_GROUP_ID
+							INNER JOIN ITEM_GROUP_ITEM IGI ON IGI.ITEM_GROUP_ID = IG.ITEM_GROUP_ID
+							INNER JOIN  ITEM I ON I.ITEM_ID = IGI.ITEM_GROUP_ITEM_ID
+							INNER JOIN ITEM_GROUP_ATTRIBUTE IGA ON IGA.ITEM_GROUP_ID = IG.ITEM_GROUP_ID";
+            var output = await entityRepository.GetAllAsync(query);
+            return (IEnumerable<Entity>)output;
+          
         }
 
         public async Task<ResultVM> Insert(string entityName, string entityDesc)
         {
-            
-            string query = string.Format(@"Insert into Entity select '{0}','{1}'", entityName, entityDesc);
-            Task output = _entityRepository.InsertAsync(query);
-            if ( output != null)
+            ResultVM resultVM = null;
+            string query = string.Format(@"insert into entity(Entity_Name,Entity_Description) values('{0}','{1}')", entityName,entityDesc);
+            bool output = await entityRepository.InsertAsync(query);
+            if ( output)
             {
-                var resultVM = new ResultVM
+                 resultVM = new ResultVM
                 {
-                    Message = "Entity Successfuly inserted",
+                    Message = "Sucessfully Inserted.",
                 };
-                return resultVM;
-               
+                
+            }
+            else
+            {
+                resultVM = new ResultVM
+                {
+                    Message = "Sucessfully Inserted.",
+                };
+             
+            }
+            return resultVM;
+
+        }
+
+        public async Task<ResultVM> Update(int EntityId, string entityName, string entityDesc)
+        {
+            ResultVM resultVM = null;
+            string query = string.Format(@"update  entity set ", entityName, entityDesc);
+            bool output = await entityRepository.InsertAsync(query);
+            if (output)
+            {
+                resultVM = new ResultVM
+                {
+                    Message = "Sucessfully Inserted.",
+                };
 
             }
             else
             {
-                var resultVM = new ResultVM
+                resultVM = new ResultVM
                 {
-                    Message = "Entity insertion failed"
+                    Message = "Sucessfully Inserted.",
                 };
-                return resultVM;
+
             }
-           
+            return resultVM;
         }
     }
 }

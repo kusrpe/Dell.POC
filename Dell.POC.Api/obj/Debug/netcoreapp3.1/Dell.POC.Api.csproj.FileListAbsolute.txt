@@ -91,3 +91,4 @@ C:\Dell.POCLatest\Dell.POC\Dell.POC.Api\bin\Debug\netcoreapp3.1\Json.Net.dll
 C:\Dell.POCLatest\Dell.POC\Dell.POC.Api\obj\Debug\netcoreapp3.1\Dell.POC.Api.csproj.CoreCompileInputs.cache
 C:\Dell.POCLatest\Dell.POC\Dell.POC.Api\obj\Debug\netcoreapp3.1\Dell.POC.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Dell.POCLatest\Dell.POC\Dell.POC.Api\obj\Debug\netcoreapp3.1\Dell.POC.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Dell.POCLatest\Dell.POC\Dell.POC.Api\bin\Debug\netcoreapp3.1\SqlMapper.dll

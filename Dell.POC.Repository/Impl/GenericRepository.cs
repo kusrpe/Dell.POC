@@ -17,7 +17,7 @@ using System.Text;
 namespace Dell.POC.Repository.Impl
 {
     /// <inheritdoc/>
-    public abstract class GenericRepository :IGenericRepository
+    public abstract class GenericRepository<T> :IGenericRepository<T>  where T:class
     {
         private readonly string _tableName;
 
@@ -38,20 +38,19 @@ namespace Dell.POC.Repository.Impl
         /// Open new connection and return it for use
         /// </summary>
         /// <returns></returns>
-        private IDbConnection CreateConnection()
+        protected IDbConnection CreateConnection()
         {
             var conn = SqlConnection();
-            //conn.Open();
+          
             return conn;
         }
 
-        public string GetAllAsync(string query)
+        public virtual async Task<IEnumerable<dynamic>> GetAllAsync(string query)
         {
             using (var connection = CreateConnection())
             {
-
-                var res = connection.ExecuteScalar<string>(query, commandType: CommandType.Text);
-                return res;
+                dynamic res = await connection.QueryAsync<T>(query, commandType: CommandType.Text);
+                return  res;
             }
            
         }
@@ -66,19 +65,25 @@ namespace Dell.POC.Repository.Impl
             throw new NotImplementedException();
         }
 
-        public Task UpdateAsync(string query)
-        {
-            throw new NotImplementedException();
-        }
-
-        public  Task InsertAsync(string query)
+        public async Task<bool> UpdateAsync(string query)
         {
             using (var connection = CreateConnection())
             {
                 connection.Open();
-                var res = connection.QueryAsync(query, commandType: CommandType.Text);
-                return  res;
+                var res = await connection.QueryAsync(query, commandType: CommandType.Text);
+                return true;
             }
+        }
+
+        public async Task<bool>  InsertAsync(string query)
+        {
+            using (var connection = CreateConnection())
+            {
+                connection.Open();
+                var res = await connection.QueryAsync(query, commandType: CommandType.Text);
+                return true ;
+            }
+           
         }
     }
 }

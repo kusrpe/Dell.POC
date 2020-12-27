@@ -11,14 +11,14 @@ namespace Dell.POC.Repository.Interfaces
     /// Base repository to manage generic operations.
     /// </summary>
     /// <typeparam name="T">Any class type.</typeparam>
-    public interface IGenericRepository
+    public interface IGenericRepository<T> where T:class
     {
-        string GetAllAsync(string query);
+        Task<IEnumerable<dynamic>> GetAllAsync(string query);
         Task DeleteRowAsync(string query);
         string GetAsync(string query);
-        
-        Task UpdateAsync(string query);
-        Task InsertAsync(string query);
+
+        Task<bool> UpdateAsync(string query);
+        Task<bool> InsertAsync(string query);
       
 
     }

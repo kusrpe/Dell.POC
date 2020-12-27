@@ -4,7 +4,7 @@ using System.Text;
 using Dell.POC.Models;
 namespace Dell.POC.Repository.Interfaces
 {
-    public  interface IEntityRepository:IGenericRepository
+    public  interface IEntityRepository:IGenericRepository<Entity>
     {
     }
 }

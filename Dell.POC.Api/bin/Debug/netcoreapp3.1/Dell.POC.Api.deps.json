@@ -433,6 +433,17 @@
           }
         }
       },
+      "SqlMapper/2.0.0": {
+        "runtime": {
+          "lib/net45/SqlMapper.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/net45/SqlMapper.dll": {}
+        }
+      },
       "Swashbuckle.AspNetCore/5.6.3": {
         "dependencies": {
           "Microsoft.Extensions.ApiDescription.Server": "3.0.0",
@@ -562,7 +573,8 @@
       },
       "Dell.POC.Services/1.0.0": {
         "dependencies": {
-          "Dell.POC.Repository": "1.0.0"
+          "Dell.POC.Repository": "1.0.0",
+          "SqlMapper": "2.0.0"
         },
         "runtime": {
           "Dell.POC.Services.dll": {}
@@ -2349,6 +2361,13 @@
       "sha512": "sha512-YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
       "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
       "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "SqlMapper/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mnIhfhfqp5MJsG8EC2VyVAYgaNSFRARqYfvI47TQ0cXPsw0pMTpJi6rkwvlGa957l1GZ1KgJoXOB0jHmFlkXUQ==",
+      "path": "sqlmapper/2.0.0",
+      "hashPath": "sqlmapper.2.0.0.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/5.6.3": {
       "type": "package",

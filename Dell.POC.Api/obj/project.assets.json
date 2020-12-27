@@ -140,6 +140,15 @@
           }
         }
       },
+      "SqlMapper/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/SqlMapper.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SqlMapper.dll": {}
+        }
+      },
       "Swashbuckle.AspNetCore/5.6.3": {
         "type": "package",
         "dependencies": {
@@ -319,7 +328,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "Dell.POC.Repository": "1.0.0"
+          "Dell.POC.Repository": "1.0.0",
+          "SqlMapper": "2.0.0"
         },
         "compile": {
           "bin/placeholder/Dell.POC.Services.dll": {}
@@ -602,6 +612,18 @@
         "runtimes/win-x86/native/sni.dll",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "SqlMapper/2.0.0": {
+      "sha512": "mnIhfhfqp5MJsG8EC2VyVAYgaNSFRARqYfvI47TQ0cXPsw0pMTpJi6rkwvlGa957l1GZ1KgJoXOB0jHmFlkXUQ==",
+      "type": "package",
+      "path": "sqlmapper/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/SqlMapper.dll",
+        "sqlmapper.2.0.0.nupkg.sha512",
+        "sqlmapper.nuspec"
       ]
     },
     "Swashbuckle.AspNetCore/5.6.3": {
@@ -1037,5 +1059,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SqlMapper 2.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "SqlMapper",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }
