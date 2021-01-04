@@ -87,7 +87,8 @@ namespace Dell.POC.Api
           
             services.AddScoped<IEntitiyService, EntityService>();
 
-
+            services.AddScoped<IEntitiyAttributeService, EntityAttributeService>();
+            services.AddScoped<IItemService, ItemService>();
 
         }
     }
